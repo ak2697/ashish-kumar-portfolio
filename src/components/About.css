@@ -1,0 +1,44 @@
+/* About.css */
+.skill-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .skill-card {
+    width: 150px;
+    text-align: center;
+    background-color: gray;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  
+  .skill-icon {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 50%;
+  }
+ .bio
+{
+    padding:20px;
+    color:whitesmoke;
+}
+.skills-section{
+    padding: 20px;
+}
+.certifications-section{
+    padding: 20px;
+}
+.frameworks-section{
+    padding: 20px;
+}
+
+.heading {
+    margin-top: 10px; /* Add margin between description and GitHub link */
+    color: #0df4de;
+  }
+
+.skill-name{
+    color: rgb(0, 0, 0);
+}

@@ -1,0 +1,44 @@
+.project-card {
+  display: flex;
+  align-items: center; /* Center items vertically */
+  margin : 10px;
+  padding: 5%;
+  
+}
+
+.project-image {
+  width: 200px; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 20px; /* Add spacing between image and details */
+  border-radius: 50%;
+}
+
+.project-body {
+  flex: 1; /* Allow details to expand and fill remaining space */
+
+}
+
+.project-name{
+  color: #0df4de;
+}
+.project-description{
+  color: whitesmoke;
+}
+.project-skills{
+  color: wheat;
+}
+.github-link {
+  margin-top: 10px; /* Add margin between description and GitHub link */
+  color: #0df4de;
+}
+
+body{
+  background-color: #282f37;
+}
+
+.line {
+  height: 5px;
+  width: 100%;
+  background-color: gray;
+  margin: 40px auto; /* Center the line horizontally */
+}

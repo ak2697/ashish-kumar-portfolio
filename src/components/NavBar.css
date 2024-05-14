@@ -1,0 +1,44 @@
+/* NavBar.css */
+.navbar {
+  display: flex;
+  justify-content: center; /* Horizontally center the items */
+  align-items: center; /* Vertically center the items */
+  background-color: black;
+  height: 60px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.nav-item {
+  margin: 0 100px; /* Adjust the spacing between nav items */
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  transition: color 0.3s ease; /* Add a smooth transition for color changes */
+}
+
+.nav-item.bigger {
+  font-size: 3em; /* Adjust the font size as needed */
+}
+
+
+.nav-item:hover {
+  animation: colorChange 2s infinite; /* Start the color change animation on hover */
+}
+
+@keyframes colorChange {
+  0% {
+    color: rebeccapurple; /* Initial color */
+  }
+  50% {
+    color: #ff6347; /* Intermediate color */
+  }
+  100% {
+    color: #00ffff; /* Final color */
+  }
+}
+
+.nav-item.active {
+  font-size: 50px; /* Set border color for active tab */
+  animation: colorChange 2s infinite; /* Start the color change animation on hover */
+}
