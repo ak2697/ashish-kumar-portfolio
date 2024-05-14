@@ -2,7 +2,7 @@
   "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ashishkumar.github.io/portfolio",
+  "homepage": "https://ak2697.github.io/ashish-kumar-portfolio",
 
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
